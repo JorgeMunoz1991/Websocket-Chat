@@ -141,7 +141,7 @@ body {
 @media (max-width: 767px) {
   .div-chat {
     max-height: 440px;
-    max-width: 380px;
+    max-width: 350px;
   }
   .emoji-icon {
     margin-right: 10px;

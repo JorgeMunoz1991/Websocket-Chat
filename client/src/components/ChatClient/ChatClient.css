@@ -137,3 +137,38 @@ body {
   cursor: pointer;
   outline: none;
 }
+
+@media (max-width: 767px) {
+  .div-chat {
+    max-height: 440px;
+    max-width: 315px;
+  }
+  .emoji-icon {
+    margin-top: 0;
+  }
+  .div-type-chat {
+    flex-direction: column;
+  }
+  .form div button {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .div-chat {
+    max-width: 600px;
+    max-height: 990px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .div-chat {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .div-chat {
+    max-width: 1000px;
+  }
+}

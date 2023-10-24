@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "emoji-picker-react": "^4.5.5"
+  },
+
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}

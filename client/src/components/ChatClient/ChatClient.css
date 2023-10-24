@@ -1,0 +1,139 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background: #88bee4;
+  background: linear-gradient(90deg, #72dcf7, #bae4f7);
+  padding: 40px;
+  padding-top: 10px;
+  border-radius: 10px;
+  width: auto;
+}
+
+.title {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #209d9d;
+}
+
+.description {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: rgb(209 213 219);
+}
+
+.form div {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.form div input {
+  outline: none;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  color: black;
+  padding: 0.5rem 0.875rem;
+  background-color: rgb(255 255 255 / 0.05);
+  border: 1px solid rgba(253, 253, 253, 0.363);
+  border-radius: 0.375rem;
+  flex: 1 1 auto;
+  margin-top: 1rem;
+}
+
+.form div input::placeholder {
+  color: #209d9d;
+}
+
+.form div input:focus {
+  border: 1px solid #209d9d;
+}
+
+.form div button {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.625rem 0.875rem;
+  background-color: #209d9d;
+  border-radius: 0.375rem;
+  border: none;
+  outline: none;
+  margin-top: 16px;
+}
+
+.form div button:hover,
+.form div button:focus {
+  background-color: green;
+}
+
+.div-chat {
+  width: 800px;
+  height: 600px;
+  overflow-y: scroll;
+  background: linear-gradient(90deg, #bae4f7, #97e2f5);
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.div-chat > p {
+  color: #146565;
+}
+
+.txt-username {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  border-color: #209d9d;
+}
+
+.txt-username::placeholder {
+  color: #209d9d;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.emoji-icon {
+  cursor: pointer;
+  margin: 10px;
+  margin-top: 26px;
+  margin-right: 25px;
+  margin-left: -10px;
+}
+
+.picker-container {
+  width: 90%;
+  height: 25rem;
+  position: relative;
+  z-index: 1;
+}
+
+.input-style {
+  /* background-color: #003b76; */
+  color: black;
+  margin-right: 1rem;
+}
+
+body {
+  background-color: #cff6f6;
+}
+
+.trash-icon {
+  background: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.clear-button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}

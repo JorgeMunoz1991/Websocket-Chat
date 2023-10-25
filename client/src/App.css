@@ -46,3 +46,40 @@ h1 {
   margin-bottom: 15px;
   margin-top: -5px;
 }
+
+@media (max-width: 767px) {
+  #root {
+    margin-top: -25px;
+    margin-left: -25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #root {
+    margin-top: -35px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #root {
+    margin-top: -35px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+  #root {
+    margin-top: -80px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+  #root {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 1600px) {
+  #root {
+    margin-top: -120px;
+  }
+}

@@ -1,11 +1,12 @@
 import "./App.css";
-import { ChatClient } from "./components/ChatClient/ChatClient.jsx";
+import { ChatClient } from "./components/ChatClient.jsx";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Test Chat</h1>
-      <ChatClient />
+      <Navbar/>
+      <ChatClient/>
     </div>
   );
 }

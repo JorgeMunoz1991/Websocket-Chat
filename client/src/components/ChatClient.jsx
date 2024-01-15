@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./ChatClient.css";
 import io from "socket.io-client";
-import Picker from "emoji-picker-react";
+// import Picker from "emoji-picker-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 
